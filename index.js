@@ -840,826 +840,970 @@ const countryPhoneCodes = {
 };
 
 const countries = [
-  {
-    fa: "امارات متحده عربی",
-    en: "United Arab Emirates",
-    isoCode: "ar-AE",
-  },
-  {
-    fa: "آندورا",
-    en: "Andorra",
-    phoneCode: "+376",
-  },
-  {
-    fa: "آلبانی",
-    en: "Albania",
-    isoCode: "q-AL",
-    phoneCode: "+355",
-  },
-  {
-    fa: "ارمنستان",
-    en: "Armenia",
-    isoCode: "am-AM",
-    phoneCode: "+374",
-  },
-  {
-    fa: "آرژانتین",
-    en: "Argentina",
-    isoCode: "es-AR",
-    phoneCode: "+54",
-  },
-  {
-    fa: "اتریش",
-    en: "Austria",
-    isoCode: "de-AT",
-    phoneCode: "+43",
-  },
-  {
-    fa: "استرالیا",
-    en: "Australia",
-    isoCode: "en-AU",
-    phoneCode: "+61",
-  },
-  {
-    fa: "جمهوری آذربایجان",
-    en: "Azerbaijan",
-    isoCode: "az-AZ",
-    phoneCode: "+994",
-  },
-  {
-    fa: "جزایر آلند",
-    en: "Åland Islands",
-  },
-  {
-    fa: "بوسنی و هرزگوین",
-    en: "Bosnia and Herzegovina",
-    isoCode: "bs-BA",
-    phoneCode: "+387",
-  },
-  {
-    fa: "بنگلادش",
-    en: "Bangladesh",
-    isoCode: "bn-BD",
-    phoneCode: "+880",
-  },
-  {
-    fa: "بلژیک",
-    en: "Belgium",
-    isoCode: "nl-BE",
-    phoneCode: "+32",
-  },
-  {
-    fa: "بحرین",
-    en: "Bahrain",
-    isoCode: "ar-BH",
-    phoneCode: "+973",
-  },
-  {
-    fa: "بولیوی",
-    en: "Bolivia",
-    isoCode: "es-BO",
-    phoneCode: "+591",
-  },
-  {
-    fa: "بلاروس",
-    en: "Belarus",
-    isoCode: "be-BY",
-    phoneCode: "+375",
-  },
-  {
-    fa: "کانادا",
-    en: "Canada",
-    isoCode: "ca-AD",
-    phoneCode: "+1",
-  },
-  {
-    fa: "سوئیس",
-    en: "Switzerland",
-    isoCode: "de-CH",
-  },
-  {
-    fa: "شیلی",
-    en: "Chile",
-    isoCode: "es-CL",
-    phoneCode: "+56",
-  },
-  {
-    fa: "چین",
-    en: "China",
-    isoCode: "zh-CN",
-    phoneCode: "+86",
-  },
-  {
-    fa: "کلمبیا",
-    en: "Colombia",
-    isoCode: "es-CO",
-    phoneCode: "+57",
-  },
-  {
-    fa: "کاستاریکا",
-    en: "Costa Rica",
-    isoCode: "es-CR",
-    phoneCode: "+506",
-  },
-  {
-    fa: "جمهوری چک",
-    en: "Czech Republic",
-    isoCode: "cs-CZ",
-    phoneCode: "+420",
-  },
-  {
-    fa: "دانمارک",
-    en: "Denmark",
-    isoCode: "da-DK",
-    phoneCode: "+45",
-  },
-  {
-    fa: "دومینیکا",
-    en: "Dominican Republic",
-    isoCode: "es-DO",
-    phoneCode: "+1 809",
-  },
-  {
-    fa: "الجزایر",
-    en: "Algeria",
-    isoCode: "ar-DZ",
-    phoneCode: "+213",
-  },
-  {
-    fa: "اکوادور",
-    en: "Ecuador",
-    isoCode: "es-EC",
-    phoneCode: "+593",
-  },
-  {
-    fa: "استونی",
-    en: "Estonia",
-    isoCode: "et-EE",
-    phoneCode: "+372",
-  },
-  {
-    fa: "مصر",
-    en: "Egypt",
-    isoCode: "ar-EG",
-    phoneCode: "+20",
-  },
-  {
-    fa: "اسپانیا",
-    en: "Spain",
-    isoCode: "es-ES",
-  },
-  {
-    fa: "اتیوپی",
-    en: "Ethiopia",
-    phoneCode: "+251",
-  },
-  {
-    fa: "فنلاند",
-    en: "Finland",
-    isoCode: "fi-FI",
-    phoneCode: "+358",
-  },
-  {
-    fa: "فیجی",
-    en: "Fiji",
-    isoCode: "fj-FJ",
-    phoneCode: "+679",
-  },
-  {
-    fa: "جزایر فارو",
-    en: "Faroe Islands",
-    isoCode: "fo-FO",
-    phoneCode: "+298",
-  },
-  {
-    fa: "فرانسه",
-    en: "France",
-    isoCode: "fr-FR",
-    phoneCode: "+33",
-  },
-  {
-    fa: "گابن",
-    en: "Georgia",
-    phoneCode: "+241",
-  },
-  {
-    fa: "گرجستان",
-    en: "Germany",
-    isoCode: "ka-GE",
-    phoneCode: "+995",
-  },
-  {
-    fa: "گویان فرانسه",
-    en: "French Guiana",
-    isoCode: "fr-GF",
-    phoneCode: "+594",
-  },
-  {
-    fa: "گرنزی",
-    en: "Guernsey",
-    isoCode: "en-GG",
-    phoneCode: "+44",
-  },
-  {
-    fa: "غنا",
-    en: "Ghana",
-    isoCode: "en-GH",
-    phoneCode: "+233",
-  },
-  {
-    fa: "گرینلند",
-    en: "Greenland",
-    isoCode: "kl-GL",
-    phoneCode: "+299",
-  },
-  {
-    fa: "جزیره گوادلوپ",
-    en: "Guadeloupe",
-    isoCode: "fr-GP",
-    phoneCode: "+590",
-  },
-  {
-    fa: "یونان",
-    en: "Greece",
-    isoCode: "el-GR",
-    phoneCode: "+30",
-  },
-  {
-    fa: "هنگ کنگ",
-    en: "Hong Kong",
-    isoCode: "en-HK",
-    phoneCode: "+852",
-  },
-  {
-    fa: "هندوراس",
-    en: "Honduras",
-    isoCode: "es-HN",
-    phoneCode: "+504",
-  },
-  {
-    fa: "مجارستان",
-    en: "Hungary",
-    isoCode: "hu-HU",
-    phoneCode: "+36",
-  },
-  {
-    fa: "اندونزی",
-    en: "Indonesia",
-    isoCode: "id-ID",
-    phoneCode: "+62",
-  },
-  {
-    fa: "جمهوری ایرلند",
-    en: "Ireland",
-    isoCode: "en-IE",
-    phoneCode: "+353",
-  },
-  {
-    fa: "فلسطین اشغالی (اسرائیل)",
-    en: "Israel",
-    isoCode: "he-IL",
-    phoneCode: "+972",
-  },
-  {
-    fa: "هند",
-    en: "India",
-    isoCode: "en-IN",
-    phoneCode: "+91",
-  },
-  {
-    fa: "عراق",
-    en: "Iraq",
-    isoCode: "ar-IQ",
-    phoneCode: "+964",
-  },
-  {
-    fa: "ایران",
-    en: "Iran",
-    isoCode: "fa-IR",
-    phoneCode: "+98",
-  },
-  {
-    fa: "ایسلند",
-    en: "Iceland",
-    phoneCode: "+354",
-  },
-  {
-    fa: "ایتالیا",
-    en: "Italy",
-    isoCode: "it-IT",
-    phoneCode: "+39",
-  },
-  {
-    fa: "اردن",
-    en: "Jordan",
-    isoCode: "ar-JO",
-    phoneCode: "+962",
-  },
-  {
-    fa: "ژاپن",
-    en: "Japan",
-    isoCode: "ja-JP",
-    phoneCode: "+81",
-  },
-  {
-    fa: "کنیا",
-    en: "Kenya",
-    isoCode: "en-KE",
-    phoneCode: "+254",
-  },
-  {
-    fa: "قرقیزستان",
-    en: "Kyrgyzstan",
-    phoneCode: "+996",
-  },
-  {
-    fa: "کامبوج",
-    en: "Cambodia",
-    phoneCode: "+855",
-  },
-  {
-    fa: "کیریباتی",
-    en: "Kiribati",
-    phoneCode: "+686",
-  },
-  {
-    fa: "کومور",
-    en: "Comoros",
-    phoneCode: "+269",
-  },
-  {
-    fa: "سنت کیتس و نویس",
-    en: "Saint Kitts and Nevis",
-  },
-  {
-    fa: "کره شمالی",
-    en: "North Korea",
-    phoneCode: "+850",
-  },
-  {
-    fa: "کره جنوبی",
-    en: "South Korea",
-    isoCode: "ko-KR",
-    phoneCode: "+82",
-  },
-  {
-    fa: "کویت",
-    en: "Kuwait",
-    isoCode: "ar-KW",
-    phoneCode: "+965",
-  },
-  {
-    fa: "قزاقستان",
-    en: "Kazakhstan",
-    isoCode: "kk-KZ",
-    phoneCode: "+7",
-  },
-  {
-    fa: "لبنان",
-    en: "Lebanon",
-    isoCode: "ar-LB",
-    phoneCode: "+961",
-  },
-  {
-    fa: "سری لانکا",
-    en: "Sri Lanka",
-    isoCode: "i-LK",
-  },
-  {
-    fa: "لیتوانی",
-    en: "Lithuania",
-    isoCode: "lt-LT",
-    phoneCode: "+370",
-  },
-  {
-    fa: "لوکزامبورگ",
-    en: "Luxembourg",
-    isoCode: "de-LU",
-    phoneCode: "+352",
-  },
-  {
-    fa: "لتونی",
-    en: "Latvia",
-    isoCode: "lv-LV",
-    phoneCode: "+371",
-  },
-  {
-    fa: "لیبی",
-    en: "Libya",
-    isoCode: "ar-LY",
-    phoneCode: "+218",
-  },
-  {
-    fa: "مراکش",
-    en: "Morocco",
-    isoCode: "ar-MA",
-    phoneCode: "+212",
-  },
-  {
-    fa: "موناکو",
-    en: "Monaco",
-    phoneCode: "+377",
-  },
-  {
-    fa: "مولداوی",
-    en: "Moldova",
-    phoneCode: "+373",
-  },
-  {
-    fa: "مونته نگرو",
-    en: "Montenegro",
-    phoneCode: "+382",
-  },
-  {
-    fa: "ماداگاسکار",
-    en: "Madagascar",
-    phoneCode: "+261",
-  },
-  {
-    fa: "جمهوری مقدونیه",
-    en: "North Macedonia",
-    phoneCode: "+389",
-  },
-  {
-    fa: "مالی",
-    en: "Mali",
-    phoneCode: "+223",
-  },
-  {
-    fa: "مغولستان",
-    en: "Mongolia",
-    phoneCode: "+976",
-  },
-  {
-    fa: "ماکائو",
-    en: "Macau",
-    isoCode: "en-MO",
-    phoneCode: "+853",
-  },
-  {
-    fa: "مارتینیک",
-    en: "Martinique",
-    isoCode: "fr-MQ",
-    phoneCode: "+596",
-  },
-  {
-    fa: "مالت",
-    en: "Malta",
-    isoCode: "en-MT",
-    phoneCode: "+356",
-  },
-  {
-    fa: "موریس",
-    en: "Mauritius",
-    isoCode: "en-MU",
-    phoneCode: "+230",
-  },
-  {
-    fa: "مالدیو",
-    en: "Maldives",
-    phoneCode: "+960",
-  },
-  {
-    fa: "مالاوی",
-    en: "Malawi",
-    phoneCode: "+265",
-  },
-  {
-    fa: "مکزیک",
-    en: "Mexico",
-    isoCode: "es-MX",
-    phoneCode: "+52",
-  },
-  {
-    fa: "مالزی",
-    en: "Malaysia",
-    isoCode: "ms-MY",
-    phoneCode: "+60",
-  },
-  {
-    fa: "موزامبیک",
-    en: "Mozambique",
-    isoCode: "mz-MZ",
-    phoneCode: "+258",
-  },
-  {
-    fa: "نامیبیا",
-    en: "Namibia",
-    phoneCode: "+264",
-  },
-  {
-    fa: "نیجریه",
-    en: "Nigeria",
-    isoCode: "en-NG",
-    phoneCode: "+234",
-  },
-  {
-    fa: "نیکاراگوئه",
-    en: "Nicaragua",
-    phoneCode: "+505",
-  },
-  {
-    fa: "هلند",
-    en: "Netherlands",
-    isoCode: "nl-NL",
-    phoneCode: "+31",
-  },
-  {
-    fa: "نروژ",
-    en: "Norway",
-    isoCode: "nn-NO",
-    phoneCode: "+47",
-  },
-  {
-    fa: "نپال",
-    en: "Nepal",
-    isoCode: "ne-NP",
-    phoneCode: "+977",
-  },
-  {
-    fa: "نیوزلند",
-    en: "New Zealand",
-    isoCode: "en-NZ",
-    phoneCode: "+64",
-  },
-  {
-    fa: "عمان",
-    en: "Oman",
-    isoCode: "ar-OM",
-    phoneCode: "+968",
-  },
-  {
-    fa: "پاناما",
-    en: "Panama",
-    isoCode: "es-PA",
-    phoneCode: "+507",
-  },
-  {
-    fa: "پرو",
-    en: "Peru",
-    isoCode: "es-PE",
-    phoneCode: "+51",
-  },
-  {
-    fa: "فیلیپین",
-    en: "Philippines",
-    isoCode: "en-PH",
-    phoneCode: "+63",
-  },
-  {
-    fa: "پاکستان",
-    en: "Pakistan",
-    isoCode: "en-PK",
-    phoneCode: "+92",
-  },
-  {
-    fa: "لهستان",
-    en: "Poland",
-    isoCode: "pl-PL",
-    phoneCode: "+48",
-  },
-  {
-    fa: "پرتغال",
-    en: "Portugal",
-    isoCode: "pt-PT",
-    phoneCode: "+351",
-  },
-  {
-    fa: "پاراگوئه",
-    en: "Paraguay",
-    isoCode: "es-PY",
-    phoneCode: "+595",
-  },
-  {
-    fa: "ریونیون",
-    en: "Réunion",
-    isoCode: "fr-RE",
-    phoneCode: "+262",
-  },
-  {
-    fa: "رومانی",
-    en: "Romania",
-    isoCode: "ro-RO",
-    phoneCode: "+40",
-  },
-  {
-    fa: "صربستان",
-    en: "Serbia",
-    isoCode: "r-RS",
-  },
-  {
-    fa: "روسیه",
-    en: "Russia",
-    isoCode: "ru-RU",
-    phoneCode: "+7",
-  },
-  {
-    fa: "رواندا",
-    en: "Rwanda",
-    isoCode: "en-RW",
-    phoneCode: "+250",
-  },
-  {
-    fa: "عربستان سعودی",
-    en: "Saudi Arabia",
-    isoCode: "ar-SA",
-    phoneCode: "+966",
-  },
-  {
-    fa: "جزایر سلیمان",
-    en: "Solomon Islands",
-    phoneCode: "+677",
-  },
-  {
-    fa: "سیشل",
-    en: "Seychelles",
-    phoneCode: "+248",
-  },
-  {
-    fa: "سودان",
-    en: "Sudan",
-    phoneCode: "+249",
-  },
-  {
-    fa: "سوئد",
-    en: "Sweden",
-    isoCode: "v-SE",
-    phoneCode: "+46",
-  },
-  {
-    fa: "سنگاپور",
-    en: "Singapore",
-    isoCode: "en-SG",
-    phoneCode: "+65",
-  },
-  {
-    fa: "اسلوونی",
-    en: "Slovenia",
-    isoCode: "l-SI",
-    phoneCode: "+386",
-  },
-  {
-    fa: "اسلواکی",
-    en: "Slovakia",
-    isoCode: "k-SK",
-    phoneCode: "+421",
-  },
-  {
-    fa: "سیرالئون",
-    en: "Sierra Leone",
-    isoCode: "en-SL",
-    phoneCode: "+232",
-  },
-  {
-    fa: "سن مارینو",
-    en: "San Marino",
-    isoCode: "it-SM",
-    phoneCode: "+378",
-  },
-  {
-    fa: "سنگال",
-    en: "Senegal",
-    phoneCode: "+221",
-  },
-  {
-    fa: "سومالی",
-    en: "Somalia",
-    phoneCode: "+252",
-  },
-  {
-    fa: "سورینام",
-    en: "Suriname",
-    phoneCode: "+597",
-  },
-  {
-    fa: "السالوادور",
-    en: "El Salvador",
-    phoneCode: "+503",
-  },
-  {
-    fa: "سوریه",
-    en: "Syria",
-    isoCode: "ar-SY",
-    phoneCode: "+963",
-  },
-  {
-    fa: "سوازیلند",
-    en: "Eswatini",
-    phoneCode: "+268",
-  },
-  {
-    fa: "تایلند",
-    en: "Thailand",
-    isoCode: "th-TH",
-    phoneCode: "+66",
-  },
-  {
-    fa: "تاجیکستان",
-    en: "Tajikistan",
-    phoneCode: "+992",
-  },
-  {
-    fa: "تیمور شرقی",
-    en: "Timor-Leste",
-    phoneCode: "+670",
-  },
-  {
-    fa: "تونس",
-    en: "Tunisia",
-    isoCode: "ar-TN",
-    phoneCode: "+216",
-  },
-  {
-    fa: "ترکیه",
-    en: "Turkey",
-    isoCode: "tr-TR",
-    phoneCode: "+90",
-  },
-  {
-    fa: "ترینیداد و توباگو",
-    en: "Trinidad and Tobago",
-    phoneCode: "+1 868",
-  },
-  {
-    fa: "تایوان",
-    en: "Taiwan",
-    isoCode: "zh-TW",
-    phoneCode: "+886",
-  },
-  {
-    fa: "تانزانیا",
-    en: "Tanzania",
-    isoCode: "en-TZ",
-    phoneCode: "+255",
-  },
-  {
-    fa: "اوکراین",
-    en: "Ukraine",
-    isoCode: "uk-UA",
-    phoneCode: "+380",
-  },
-  {
-    fa: "اوگاندا",
-    en: "Uganda",
-    isoCode: "en-UG",
-    phoneCode: "+256",
-  },
-  {
-    fa: "ایالات متحده",
-    en: "United States",
-    isoCode: "en-US",
-    phoneCode: "+1",
-  },
-  {
-    fa: "اروگوئه",
-    en: "Uruguay",
-    isoCode: "es-UY",
-    phoneCode: "+598",
-  },
-  {
-    fa: "ازبکستان",
-    en: "Uzbekistan",
-    isoCode: "uz-UZ",
-    phoneCode: "+998",
-  },
-  {
-    fa: "شهر واتیکان",
-    en: "Vatican City",
-    phoneCode: "+379",
-  },
-  {
-    fa: "ونزوئلا",
-    en: "Venezuela",
-    isoCode: "es-VE",
-    phoneCode: "+58",
-  },
-  {
-    fa: "ویتنام",
-    en: "Vietnam",
-    isoCode: "vi-VN",
-    phoneCode: "+84",
-  },
-  {
-    fa: "وانواتو",
-    en: "Vanuatu",
-    phoneCode: "+678",
-  },
-  {
-    fa: "آفریقای جنوبی",
-    en: "South Africa",
-    isoCode: "en-ZA",
-    phoneCode: "+27",
-  },
-  {
-    fa: "زامبیا",
-    en: "Zambia",
-    isoCode: "en-ZM",
-    phoneCode: "+260",
-  },
-  {
-    fa: "زیمبابوه",
-    en: "Zimbabwe",
-    isoCode: "en-ZW",
-    phoneCode: "+263",
-  },
+    {
+        "fa": "امارات متحده عربی",
+        "en": "United Arab Emirates",
+        "isoCode": "ar-AE",
+        "code": "AE"
+    },
+    {
+        "fa": "آندورا",
+        "en": "Andorra",
+        "phoneCode": "+376",
+        "code": "AD"
+    },
+    {
+        "fa": "آلبانی",
+        "en": "Albania",
+        "isoCode": "q-AL",
+        "phoneCode": "+355",
+        "code": "AL"
+    },
+    {
+        "fa": "ارمنستان",
+        "en": "Armenia",
+        "isoCode": "am-AM",
+        "phoneCode": "+374",
+        "code": "AM"
+    },
+    {
+        "fa": "آرژانتین",
+        "en": "Argentina",
+        "isoCode": "es-AR",
+        "phoneCode": "+54",
+        "code": "AR"
+    },
+    {
+        "fa": "اتریش",
+        "en": "Austria",
+        "isoCode": "de-AT",
+        "phoneCode": "+43",
+        "code": "AT"
+    },
+    {
+        "fa": "استرالیا",
+        "en": "Australia",
+        "isoCode": "en-AU",
+        "phoneCode": "+61",
+        "code": "AU"
+    },
+    {
+        "fa": "جمهوری آذربایجان",
+        "en": "Azerbaijan",
+        "isoCode": "az-AZ",
+        "phoneCode": "+994",
+        "code": "AZ"
+    },
+    {
+        "fa": "جزایر آلند",
+        "en": "Åland Islands",
+        "code": "AX"
+    },
+    {
+        "fa": "بوسنی و هرزگوین",
+        "en": "Bosnia and Herzegovina",
+        "isoCode": "bs-BA",
+        "phoneCode": "+387",
+        "code": "BA"
+    },
+    {
+        "fa": "بنگلادش",
+        "en": "Bangladesh",
+        "isoCode": "bn-BD",
+        "phoneCode": "+880",
+        "code": "BD"
+    },
+    {
+        "fa": "بلژیک",
+        "en": "Belgium",
+        "isoCode": "nl-BE",
+        "phoneCode": "+32",
+        "code": "BE"
+    },
+    {
+        "fa": "بحرین",
+        "en": "Bahrain",
+        "isoCode": "ar-BH",
+        "phoneCode": "+973",
+        "code": "BH"
+    },
+    {
+        "fa": "بولیوی",
+        "en": "Bolivia",
+        "isoCode": "es-BO",
+        "phoneCode": "+591",
+        "code": "BO"
+    },
+    {
+        "fa": "بلاروس",
+        "en": "Belarus",
+        "isoCode": "be-BY",
+        "phoneCode": "+375",
+        "code": "BY"
+    },
+    {
+        "fa": "کانادا",
+        "en": "Canada",
+        "isoCode": "ca-AD",
+        "phoneCode": "+1",
+        "code": "CA"
+    },
+    {
+        "fa": "سوئیس",
+        "en": "Switzerland",
+        "isoCode": "de-CH",
+        "code": "CH"
+    },
+    {
+        "fa": "شیلی",
+        "en": "Chile",
+        "isoCode": "es-CL",
+        "phoneCode": "+56",
+        "code": "CL"
+    },
+    {
+        "fa": "چین",
+        "en": "China",
+        "isoCode": "zh-CN",
+        "phoneCode": "+86",
+        "code": "CN"
+    },
+    {
+        "fa": "کلمبیا",
+        "en": "Colombia",
+        "isoCode": "es-CO",
+        "phoneCode": "+57",
+        "code": "CO"
+    },
+    {
+        "fa": "کاستاریکا",
+        "en": "Costa Rica",
+        "isoCode": "es-CR",
+        "phoneCode": "+506",
+        "code": "CR"
+    },
+    {
+        "fa": "جمهوری چک",
+        "en": "Czech Republic",
+        "isoCode": "cs-CZ",
+        "phoneCode": "+420",
+        "code": "CZ"
+    },
+    {
+        "fa": "دانمارک",
+        "en": "Denmark",
+        "isoCode": "da-DK",
+        "phoneCode": "+45",
+        "code": "DK"
+    },
+    {
+        "fa": "دومینیکا",
+        "en": "Dominican Republic",
+        "isoCode": "es-DO",
+        "phoneCode": "+1 809",
+        "code": "DO"
+    },
+    {
+        "fa": "الجزایر",
+        "en": "Algeria",
+        "isoCode": "ar-DZ",
+        "phoneCode": "+213",
+        "code": "DZ"
+    },
+    {
+        "fa": "اکوادور",
+        "en": "Ecuador",
+        "isoCode": "es-EC",
+        "phoneCode": "+593",
+        "code": "EC"
+    },
+    {
+        "fa": "استونی",
+        "en": "Estonia",
+        "isoCode": "et-EE",
+        "phoneCode": "+372",
+        "code": "EE"
+    },
+    {
+        "fa": "مصر",
+        "en": "Egypt",
+        "isoCode": "ar-EG",
+        "phoneCode": "+20",
+        "code": "EG"
+    },
+    {
+        "fa": "اسپانیا",
+        "en": "Spain",
+        "isoCode": "es-ES",
+        "code": "ES"
+    },
+    {
+        "fa": "اتیوپی",
+        "en": "Ethiopia",
+        "phoneCode": "+251",
+        "code": "ET"
+    },
+    {
+        "fa": "فنلاند",
+        "en": "Finland",
+        "isoCode": "fi-FI",
+        "phoneCode": "+358",
+        "code": "FI"
+    },
+    {
+        "fa": "فیجی",
+        "en": "Fiji",
+        "isoCode": "fj-FJ",
+        "phoneCode": "+679",
+        "code": "FJ"
+    },
+    {
+        "fa": "جزایر فارو",
+        "en": "Faroe Islands",
+        "isoCode": "fo-FO",
+        "phoneCode": "+298",
+        "code": "FO"
+    },
+    {
+        "fa": "فرانسه",
+        "en": "France",
+        "isoCode": "fr-FR",
+        "phoneCode": "+33",
+        "code": "FR"
+    },
+    {
+        "fa": "گابن",
+        "en": "Georgia",
+        "phoneCode": "+241",
+        "code": "GA"
+    },
+    {
+        "fa": "گرجستان",
+        "en": "Germany",
+        "isoCode": "ka-GE",
+        "phoneCode": "+995",
+        "code": "GE"
+    },
+    {
+        "fa": "گویان فرانسه",
+        "en": "French Guiana",
+        "isoCode": "fr-GF",
+        "phoneCode": "+594",
+        "code": "GF"
+    },
+    {
+        "fa": "گرنزی",
+        "en": "Guernsey",
+        "isoCode": "en-GG",
+        "phoneCode": "+44",
+        "code": "GG"
+    },
+    {
+        "fa": "غنا",
+        "en": "Ghana",
+        "isoCode": "en-GH",
+        "phoneCode": "+233",
+        "code": "GH"
+    },
+    {
+        "fa": "گرینلند",
+        "en": "Greenland",
+        "isoCode": "kl-GL",
+        "phoneCode": "+299",
+        "code": "GL"
+    },
+    {
+        "fa": "جزیره گوادلوپ",
+        "en": "Guadeloupe",
+        "isoCode": "fr-GP",
+        "phoneCode": "+590",
+        "code": "GP"
+    },
+    {
+        "fa": "یونان",
+        "en": "Greece",
+        "isoCode": "el-GR",
+        "phoneCode": "+30",
+        "code": "GR"
+    },
+    {
+        "fa": "هنگ کنگ",
+        "en": "Hong Kong",
+        "isoCode": "en-HK",
+        "phoneCode": "+852",
+        "code": "HK"
+    },
+    {
+        "fa": "هندوراس",
+        "en": "Honduras",
+        "isoCode": "es-HN",
+        "phoneCode": "+504",
+        "code": "HN"
+    },
+    {
+        "fa": "مجارستان",
+        "en": "Hungary",
+        "isoCode": "hu-HU",
+        "phoneCode": "+36",
+        "code": "HU"
+    },
+    {
+        "fa": "اندونزی",
+        "en": "Indonesia",
+        "isoCode": "id-ID",
+        "phoneCode": "+62",
+        "code": "ID"
+    },
+    {
+        "fa": "جمهوری ایرلند",
+        "en": "Ireland",
+        "isoCode": "en-IE",
+        "phoneCode": "+353",
+        "code": "IE"
+    },
+    {
+        "fa": "فلسطین اشغالی (اسرائیل)",
+        "en": "Israel",
+        "isoCode": "he-IL",
+        "phoneCode": "+972",
+        "code": "IL"
+    },
+    {
+        "fa": "هند",
+        "en": "India",
+        "isoCode": "en-IN",
+        "phoneCode": "+91",
+        "code": "IN"
+    },
+    {
+        "fa": "عراق",
+        "en": "Iraq",
+        "isoCode": "ar-IQ",
+        "phoneCode": "+964",
+        "code": "IQ"
+    },
+    {
+        "fa": "ایران",
+        "en": "Iran",
+        "isoCode": "fa-IR",
+        "phoneCode": "+98",
+        "code": "IR"
+    },
+    {
+        "fa": "ایسلند",
+        "en": "Iceland",
+        "phoneCode": "+354",
+        "code": "IS"
+    },
+    {
+        "fa": "ایتالیا",
+        "en": "Italy",
+        "isoCode": "it-IT",
+        "phoneCode": "+39",
+        "code": "IT"
+    },
+    {
+        "fa": "اردن",
+        "en": "Jordan",
+        "isoCode": "ar-JO",
+        "phoneCode": "+962",
+        "code": "JO"
+    },
+    {
+        "fa": "ژاپن",
+        "en": "Japan",
+        "isoCode": "ja-JP",
+        "phoneCode": "+81",
+        "code": "JP"
+    },
+    {
+        "fa": "کنیا",
+        "en": "Kenya",
+        "isoCode": "en-KE",
+        "phoneCode": "+254",
+        "code": "KE"
+    },
+    {
+        "fa": "قرقیزستان",
+        "en": "Kyrgyzstan",
+        "phoneCode": "+996",
+        "code": "KG"
+    },
+    {
+        "fa": "کامبوج",
+        "en": "Cambodia",
+        "phoneCode": "+855",
+        "code": "KH"
+    },
+    {
+        "fa": "کیریباتی",
+        "en": "Kiribati",
+        "phoneCode": "+686",
+        "code": "KI"
+    },
+    {
+        "fa": "کومور",
+        "en": "Comoros",
+        "phoneCode": "+269",
+        "code": "KM"
+    },
+    {
+        "fa": "سنت کیتس و نویس",
+        "en": "Saint Kitts and Nevis",
+        "code": "KN"
+    },
+    {
+        "fa": "کره شمالی",
+        "en": "North Korea",
+        "phoneCode": "+850",
+        "code": "KP"
+    },
+    {
+        "fa": "کره جنوبی",
+        "en": "South Korea",
+        "isoCode": "ko-KR",
+        "phoneCode": "+82",
+        "code": "KR"
+    },
+    {
+        "fa": "کویت",
+        "en": "Kuwait",
+        "isoCode": "ar-KW",
+        "phoneCode": "+965",
+        "code": "KW"
+    },
+    {
+        "fa": "قزاقستان",
+        "en": "Kazakhstan",
+        "isoCode": "kk-KZ",
+        "phoneCode": "+7",
+        "code": "KZ"
+    },
+    {
+        "fa": "لبنان",
+        "en": "Lebanon",
+        "isoCode": "ar-LB",
+        "phoneCode": "+961",
+        "code": "LB"
+    },
+    {
+        "fa": "سری لانکا",
+        "en": "Sri Lanka",
+        "isoCode": "i-LK",
+        "code": "LK"
+    },
+    {
+        "fa": "لیتوانی",
+        "en": "Lithuania",
+        "isoCode": "lt-LT",
+        "phoneCode": "+370",
+        "code": "LT"
+    },
+    {
+        "fa": "لوکزامبورگ",
+        "en": "Luxembourg",
+        "isoCode": "de-LU",
+        "phoneCode": "+352",
+        "code": "LU"
+    },
+    {
+        "fa": "لتونی",
+        "en": "Latvia",
+        "isoCode": "lv-LV",
+        "phoneCode": "+371",
+        "code": "LV"
+    },
+    {
+        "fa": "لیبی",
+        "en": "Libya",
+        "isoCode": "ar-LY",
+        "phoneCode": "+218",
+        "code": "LY"
+    },
+    {
+        "fa": "مراکش",
+        "en": "Morocco",
+        "isoCode": "ar-MA",
+        "phoneCode": "+212",
+        "code": "MA"
+    },
+    {
+        "fa": "موناکو",
+        "en": "Monaco",
+        "phoneCode": "+377",
+        "code": "MC"
+    },
+    {
+        "fa": "مولداوی",
+        "en": "Moldova",
+        "phoneCode": "+373",
+        "code": "MD"
+    },
+    {
+        "fa": "مونته نگرو",
+        "en": "Montenegro",
+        "phoneCode": "+382",
+        "code": "ME"
+    },
+    {
+        "fa": "ماداگاسکار",
+        "en": "Madagascar",
+        "phoneCode": "+261",
+        "code": "MG"
+    },
+    {
+        "fa": "جمهوری مقدونیه",
+        "en": "North Macedonia",
+        "phoneCode": "+389",
+        "code": "MK"
+    },
+    {
+        "fa": "مالی",
+        "en": "Mali",
+        "phoneCode": "+223",
+        "code": "ML"
+    },
+    {
+        "fa": "مغولستان",
+        "en": "Mongolia",
+        "phoneCode": "+976",
+        "code": "MN"
+    },
+    {
+        "fa": "ماکائو",
+        "en": "Macau",
+        "isoCode": "en-MO",
+        "phoneCode": "+853",
+        "code": "MO"
+    },
+    {
+        "fa": "مارتینیک",
+        "en": "Martinique",
+        "isoCode": "fr-MQ",
+        "phoneCode": "+596",
+        "code": "MQ"
+    },
+    {
+        "fa": "مالت",
+        "en": "Malta",
+        "isoCode": "en-MT",
+        "phoneCode": "+356",
+        "code": "MT"
+    },
+    {
+        "fa": "موریس",
+        "en": "Mauritius",
+        "isoCode": "en-MU",
+        "phoneCode": "+230",
+        "code": "MU"
+    },
+    {
+        "fa": "مالدیو",
+        "en": "Maldives",
+        "phoneCode": "+960",
+        "code": "MV"
+    },
+    {
+        "fa": "مالاوی",
+        "en": "Malawi",
+        "phoneCode": "+265",
+        "code": "MW"
+    },
+    {
+        "fa": "مکزیک",
+        "en": "Mexico",
+        "isoCode": "es-MX",
+        "phoneCode": "+52",
+        "code": "MX"
+    },
+    {
+        "fa": "مالزی",
+        "en": "Malaysia",
+        "isoCode": "ms-MY",
+        "phoneCode": "+60",
+        "code": "MY"
+    },
+    {
+        "fa": "موزامبیک",
+        "en": "Mozambique",
+        "isoCode": "mz-MZ",
+        "phoneCode": "+258",
+        "code": "MZ"
+    },
+    {
+        "fa": "نامیبیا",
+        "en": "Namibia",
+        "phoneCode": "+264",
+        "code": "NA"
+    },
+    {
+        "fa": "نیجریه",
+        "en": "Nigeria",
+        "isoCode": "en-NG",
+        "phoneCode": "+234",
+        "code": "NG"
+    },
+    {
+        "fa": "نیکاراگوئه",
+        "en": "Nicaragua",
+        "phoneCode": "+505",
+        "code": "NI"
+    },
+    {
+        "fa": "هلند",
+        "en": "Netherlands",
+        "isoCode": "nl-NL",
+        "phoneCode": "+31",
+        "code": "NL"
+    },
+    {
+        "fa": "نروژ",
+        "en": "Norway",
+        "isoCode": "nn-NO",
+        "phoneCode": "+47",
+        "code": "NO"
+    },
+    {
+        "fa": "نپال",
+        "en": "Nepal",
+        "isoCode": "ne-NP",
+        "phoneCode": "+977",
+        "code": "NP"
+    },
+    {
+        "fa": "نیوزلند",
+        "en": "New Zealand",
+        "isoCode": "en-NZ",
+        "phoneCode": "+64",
+        "code": "NZ"
+    },
+    {
+        "fa": "عمان",
+        "en": "Oman",
+        "isoCode": "ar-OM",
+        "phoneCode": "+968",
+        "code": "OM"
+    },
+    {
+        "fa": "پاناما",
+        "en": "Panama",
+        "isoCode": "es-PA",
+        "phoneCode": "+507",
+        "code": "PA"
+    },
+    {
+        "fa": "پرو",
+        "en": "Peru",
+        "isoCode": "es-PE",
+        "phoneCode": "+51",
+        "code": "PE"
+    },
+    {
+        "fa": "فیلیپین",
+        "en": "Philippines",
+        "isoCode": "en-PH",
+        "phoneCode": "+63",
+        "code": "PH"
+    },
+    {
+        "fa": "پاکستان",
+        "en": "Pakistan",
+        "isoCode": "en-PK",
+        "phoneCode": "+92",
+        "code": "PK"
+    },
+    {
+        "fa": "لهستان",
+        "en": "Poland",
+        "isoCode": "pl-PL",
+        "phoneCode": "+48",
+        "code": "PL"
+    },
+    {
+        "fa": "پرتغال",
+        "en": "Portugal",
+        "isoCode": "pt-PT",
+        "phoneCode": "+351",
+        "code": "PT"
+    },
+    {
+        "fa": "پاراگوئه",
+        "en": "Paraguay",
+        "isoCode": "es-PY",
+        "phoneCode": "+595",
+        "code": "PY"
+    },
+    {
+        "fa": "ریونیون",
+        "en": "Réunion",
+        "isoCode": "fr-RE",
+        "phoneCode": "+262",
+        "code": "RE"
+    },
+    {
+        "fa": "رومانی",
+        "en": "Romania",
+        "isoCode": "ro-RO",
+        "phoneCode": "+40",
+        "code": "RO"
+    },
+    {
+        "fa": "صربستان",
+        "en": "Serbia",
+        "isoCode": "r-RS",
+        "code": "RS"
+    },
+    {
+        "fa": "روسیه",
+        "en": "Russia",
+        "isoCode": "ru-RU",
+        "phoneCode": "+7",
+        "code": "RU"
+    },
+    {
+        "fa": "رواندا",
+        "en": "Rwanda",
+        "isoCode": "en-RW",
+        "phoneCode": "+250",
+        "code": "RW"
+    },
+    {
+        "fa": "عربستان سعودی",
+        "en": "Saudi Arabia",
+        "isoCode": "ar-SA",
+        "phoneCode": "+966",
+        "code": "SA"
+    },
+    {
+        "fa": "جزایر سلیمان",
+        "en": "Solomon Islands",
+        "phoneCode": "+677",
+        "code": "SB"
+    },
+    {
+        "fa": "سیشل",
+        "en": "Seychelles",
+        "phoneCode": "+248",
+        "code": "SC"
+    },
+    {
+        "fa": "سودان",
+        "en": "Sudan",
+        "phoneCode": "+249",
+        "code": "SD"
+    },
+    {
+        "fa": "سوئد",
+        "en": "Sweden",
+        "isoCode": "v-SE",
+        "phoneCode": "+46",
+        "code": "SE"
+    },
+    {
+        "fa": "سنگاپور",
+        "en": "Singapore",
+        "isoCode": "en-SG",
+        "phoneCode": "+65",
+        "code": "SG"
+    },
+    {
+        "fa": "اسلوونی",
+        "en": "Slovenia",
+        "isoCode": "l-SI",
+        "phoneCode": "+386",
+        "code": "SI"
+    },
+    {
+        "fa": "اسلواکی",
+        "en": "Slovakia",
+        "isoCode": "k-SK",
+        "phoneCode": "+421",
+        "code": "SK"
+    },
+    {
+        "fa": "سیرالئون",
+        "en": "Sierra Leone",
+        "isoCode": "en-SL",
+        "phoneCode": "+232",
+        "code": "SL"
+    },
+    {
+        "fa": "سن مارینو",
+        "en": "San Marino",
+        "isoCode": "it-SM",
+        "phoneCode": "+378",
+        "code": "SM"
+    },
+    {
+        "fa": "سنگال",
+        "en": "Senegal",
+        "phoneCode": "+221",
+        "code": "SN"
+    },
+    {
+        "fa": "سومالی",
+        "en": "Somalia",
+        "phoneCode": "+252",
+        "code": "SO"
+    },
+    {
+        "fa": "سورینام",
+        "en": "Suriname",
+        "phoneCode": "+597",
+        "code": "SR"
+    },
+    {
+        "fa": "السالوادور",
+        "en": "El Salvador",
+        "phoneCode": "+503",
+        "code": "SV"
+    },
+    {
+        "fa": "سوریه",
+        "en": "Syria",
+        "isoCode": "ar-SY",
+        "phoneCode": "+963",
+        "code": "SY"
+    },
+    {
+        "fa": "سوازیلند",
+        "en": "Eswatini",
+        "phoneCode": "+268",
+        "code": "SZ"
+    },
+    {
+        "fa": "تایلند",
+        "en": "Thailand",
+        "isoCode": "th-TH",
+        "phoneCode": "+66",
+        "code": "TH"
+    },
+    {
+        "fa": "تاجیکستان",
+        "en": "Tajikistan",
+        "phoneCode": "+992",
+        "code": "TJ"
+    },
+    {
+        "fa": "تیمور شرقی",
+        "en": "Timor-Leste",
+        "phoneCode": "+670",
+        "code": "TL"
+    },
+    {
+        "fa": "تونس",
+        "en": "Tunisia",
+        "isoCode": "ar-TN",
+        "phoneCode": "+216",
+        "code": "TN"
+    },
+    {
+        "fa": "ترکیه",
+        "en": "Turkey",
+        "isoCode": "tr-TR",
+        "phoneCode": "+90",
+        "code": "TR"
+    },
+    {
+        "fa": "ترینیداد و توباگو",
+        "en": "Trinidad and Tobago",
+        "phoneCode": "+1 868",
+        "code": "TT"
+    },
+    {
+        "fa": "تایوان",
+        "en": "Taiwan",
+        "isoCode": "zh-TW",
+        "phoneCode": "+886",
+        "code": "TW"
+    },
+    {
+        "fa": "تانزانیا",
+        "en": "Tanzania",
+        "isoCode": "en-TZ",
+        "phoneCode": "+255",
+        "code": "TZ"
+    },
+    {
+        "fa": "اوکراین",
+        "en": "Ukraine",
+        "isoCode": "uk-UA",
+        "phoneCode": "+380",
+        "code": "UA"
+    },
+    {
+        "fa": "اوگاندا",
+        "en": "Uganda",
+        "isoCode": "en-UG",
+        "phoneCode": "+256",
+        "code": "UG"
+    },
+    {
+        "fa": "ایالات متحده",
+        "en": "United States",
+        "isoCode": "en-US",
+        "phoneCode": "+1",
+        "code": "US"
+    },
+    {
+        "fa": "اروگوئه",
+        "en": "Uruguay",
+        "isoCode": "es-UY",
+        "phoneCode": "+598",
+        "code": "UY"
+    },
+    {
+        "fa": "ازبکستان",
+        "en": "Uzbekistan",
+        "isoCode": "uz-UZ",
+        "phoneCode": "+998",
+        "code": "UZ"
+    },
+    {
+        "fa": "شهر واتیکان",
+        "en": "Vatican City",
+        "phoneCode": "+379",
+        "code": "VA"
+    },
+    {
+        "fa": "ونزوئلا",
+        "en": "Venezuela",
+        "isoCode": "es-VE",
+        "phoneCode": "+58",
+        "code": "VE"
+    },
+    {
+        "fa": "ویتنام",
+        "en": "Vietnam",
+        "isoCode": "vi-VN",
+        "phoneCode": "+84",
+        "code": "VN"
+    },
+    {
+        "fa": "وانواتو",
+        "en": "Vanuatu",
+        "phoneCode": "+678",
+        "code": "VU"
+    },
+    {
+        "fa": "آفریقای جنوبی",
+        "en": "South Africa",
+        "isoCode": "en-ZA",
+        "phoneCode": "+27",
+        "code": "ZA"
+    },
+    {
+        "fa": "زامبیا",
+        "en": "Zambia",
+        "isoCode": "en-ZM",
+        "phoneCode": "+260",
+        "code": "ZM"
+    },
+    {
+        "fa": "زیمبابوه",
+        "en": "Zimbabwe",
+        "isoCode": "en-ZW",
+        "phoneCode": "+263",
+        "code": "ZW"
+    }
 ];
